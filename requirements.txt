@@ -1,0 +1,6 @@
+pandas>=1.0
+catboost>=0.24
+pytest>=6.0
+jupyterlab>=1.0
+scikit-learn>=0.23
+great-expectations>=0.12

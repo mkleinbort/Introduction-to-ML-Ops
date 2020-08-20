@@ -1,1 +1,1 @@
-docker build -t project-template .
+docker build -t intro-to-ml-ops .

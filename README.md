@@ -1,2 +1,2 @@
-# Project Template
-Template data science project
+# Introduction to ML Ops
+By Mycchaka Kleinbort
