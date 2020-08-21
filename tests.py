@@ -83,5 +83,4 @@ def test_recall_by_state(model, X, y, state):
 
         score = recall_score(y_state, y_pred, pos_label='True')
 
-        assert score > 0.3, (f'Model precision is not good enough in {state} to push to production',
-                             f'- tested on {len(X_state)} samples of which {churn_count} churned' )
+        assert score > 0.3, f'Model precision is not good enough in {state} to push to production - tested on {len(X_state)}'
