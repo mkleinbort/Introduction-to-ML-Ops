@@ -16,6 +16,4 @@ RUN jupyter labextension install @aquirdturtle/collapsible_headings --minimize=F
 RUN jupyter labextension install @ijmbarr/jupyterlab_spellchecker --minimize=False --no-build
 RUN jupyter lab build --minimize=False
 
-
 WORKDIR /workdir
-#CMD ["jupyter", "lab", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
